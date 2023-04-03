@@ -1,0 +1,61 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: aquamarine;
+
+  .card {
+    background-color: rgba(3, 32, 22, 0.685);
+    padding: 30px 20px;
+    border-radius: 5px;
+    color: white;
+
+    .error {
+      background-color: rgb(212, 48, 48);
+      padding: 5px;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        padding: 10px;
+        width: 300px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+      }
+
+      button {
+        cursor: pointer;
+        padding: 5px;
+        border: none;
+        width: 100px;
+        margin-bottom: 10px;
+        background-color: aqua;
+        border-radius: 5px;
+        color: #000;
+
+        &:hover {
+          background-color: rgba(3, 32, 22, 0.685);
+          color: white;
+        }
+      }
+    }
+
+    span {
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+}
